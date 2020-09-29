@@ -23,28 +23,33 @@ strong {
 
 }
 
+/*section titles*/
 h2 {
-  font-size: 1.5em
+  font-size: 1.5em;
   text-transform: uppercase;
   background-color:#33485e;
   color: #ffffff
 }
 
+/*job titles*/
 h3 {
-  font-size: 1.5em
+  font-size: 1.5em;
   font-weight:600;
 }
 
+/*job organization*/
 h4 {
-  font-size: 1.5em
+  font-size: 1.5em;
   font-weight:400;
 }
 
-h3 {
-  font-size: 1em
+/*job dates*/
+h5 {
+  font-size: 1em;
   font-weight:400;
 }
 
+/*contact info, education and skills*/
 ul {
   font-size: 1em;
 }
