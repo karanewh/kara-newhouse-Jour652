@@ -7,6 +7,13 @@ BODY {
   font-weight:400;
 }
 
+#container {
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 /*banner name at top*/
 #name {
   font-size: 3em;
@@ -70,4 +77,12 @@ BODY {
   font-size: 1em;
   margin: 0 auto;
   padding: 0px;
+}
+
+/*mission statement but it's at the top of the page*/
+.top {
+  width:60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
 }
