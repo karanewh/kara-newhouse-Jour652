@@ -72,12 +72,25 @@ BODY {
   margin: 10px 0px;
 }
 
-/*contact info, education and skills*/
+/*contact info, education and skills -- these aren't working!*/
 .menu {
   font-size: 1em;
   margin: 0 auto;
   padding: 0px;
 }
+
+.inline {
+  display: inline;
+}
+
+#degrees {
+  margin: 5px 0px 0px;
+}
+
+#do {
+  margin: 5px 0px 0px;
+}
+
 
 /*mission statement but it's at the top of the page*/
 .top {
