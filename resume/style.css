@@ -7,6 +7,7 @@ BODY {
   font-weight:400;
 }
 
+/*container*/
 #container {
   width:100%;
   max-width: 1200px;
@@ -53,7 +54,7 @@ BODY {
   font-weight:600;
 }
 
-/*job organization -- are we supposed to leave the font-weight as is?*/
+/*job organization*/
 .organization {
   font-size: 1.25em;
   font-weight:400;
@@ -67,12 +68,12 @@ BODY {
   margin: 2px 0px 0px;
 }
 
-/*job descriptions -- it said to leave the styling as is but I didn't have any styling for paragraph elements before*/
+/*job descriptions*/
 .description {
   margin: 10px 0px;
 }
 
-/*contact info, education and skills -- these aren't working!*/
+/*contact info, education and skills*/
 .menu {
   font-size: 1em;
   margin: 0 auto;
