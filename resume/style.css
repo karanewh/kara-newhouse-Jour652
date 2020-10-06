@@ -77,9 +77,10 @@ BODY {
   font-size: 1em;
   margin: 0 auto;
   padding: 0px;
+  text-align: center;
 }
 
-.inline {
+.menu ul li {
   display: inline;
 }
 
