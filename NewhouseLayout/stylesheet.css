@@ -20,13 +20,13 @@ h1 {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
-  padding: 10px 150px 5px;
+  padding: 10px 200px 5px;
 }
 
 p {
   font-family: Georgia, serif;
   font-size: 1em;
-  padding: 0px 150px;
+  padding: 0px 200px;
 }
 
 .caption {
@@ -52,14 +52,14 @@ blockquote {
   font-family: helvetica, sans-serif;
   font-size: 36px;
   font-weight: bold;
-  padding: 0px 150px;
+  padding: 0px 200px;
 }
 
 #readmore {
   font-family: Georgia, serif;
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 150px 0px;
+  padding: 10px 200px 0px;
 }
 
 img {
