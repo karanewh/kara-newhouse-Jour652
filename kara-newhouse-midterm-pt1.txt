@@ -25,7 +25,7 @@ Questions
 
 
 2.  Describe the purpose of a DIV tag.
-    DIV tags basically create buckets for different elements on your page. They allow you to apply to CSS styles to the content within those buckets, either through inline styles, a stylesheet or a combination.
+    DIV tags basically create buckets for different elements on your page. They allow you to apply to CSS styles to the content within those buckets, either through inline styles, a stylesheet or a combination of the two.
 
 
 
@@ -35,7 +35,7 @@ Questions
     <html lang="en">
 
     <head>
-      <title>midterm q&a</title>
+      <title>Midterm Q&A</title>
 
 
     </head>
@@ -91,7 +91,6 @@ Questions
     </div>
 
 
-
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
     .fruit {
@@ -113,7 +112,8 @@ Questions
 
 
 11. What is the main difference between a serif and a sans-serif font?
-    Serif fonts have feet or small extensions or flourishes (serifs!) at the end of the strokes. Sans serif fonts do not. The former are associated with traditional print type, while sans serif are more often used in a clean, modern design aesthetic.
+    Serif fonts have feet/small extensions/flourishes (serifs!) at the end of the strokes. Sans serif fonts do not.
+    The former are associated with traditional print type, while sans serif are more often used in a clean, modern design aesthetic.
 
 
 
