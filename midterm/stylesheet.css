@@ -1,6 +1,11 @@
+body {
+  margin:0;
+  padding:0;
+}
+
 #content {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -21,17 +26,17 @@ h2 {
 
 
 h3 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   font-size: 1.25em;
   font-weight: bold;
-  padding: 5px 200px 0px;
+  padding: 5px 175px 0px;
 }
 
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  padding: 0px 200px 5px;
+  padding: 0px 175px 5px;
 }
 
 
@@ -39,7 +44,7 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.15em;
   line-height: 1.5;
-  padding: 20px 200px 0px;
+  padding: 20px 175px 0px;
 }
 
 /* photos and graphics */
@@ -54,7 +59,7 @@ img {
   font-family: Georgia, serif;
   font-size: 1em;
   font-style: italic;
-  padding: 12px 0px 10px;
+  padding: 12px 3px 10px;
 }
 
 /* pull quote*/
@@ -62,10 +67,10 @@ blockquote {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 56px;
   font-weight: bold;
-  color: #C24CB2;
+  color: #AC5EA2;
   border-left: 2px solid;
   padding: 30px 20px;
-  margin: 30px 270px;
+  margin: 30px 260px;
 }
 
 /* related stories*/
@@ -73,5 +78,5 @@ blockquote {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
-  padding: 10px 200px 0px;
+  padding: 10px 175px 0px;
 }
