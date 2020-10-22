@@ -67,3 +67,11 @@ blockquote {
   padding: 30px 20px;
   margin: 30px 270px;
 }
+
+/* related stories*/
+#related {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 200px 0px;
+}
