@@ -1,6 +1,6 @@
 #content {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -8,11 +8,19 @@
 
 h1 {
   font-family: Georgia, serif;
-  font-size: 3em;
+  font-size: 2.8em;
   font-style: italic;
+  line-height: 1.2;
 }
 
 h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+
+h3 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25em;
   font-weight: bold;
@@ -21,10 +29,18 @@ h2 {
 
 p {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 1em;
+  line-height: 1.5;
   padding: 0px 200px 5px;
 }
 
+
+#byline {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.5;
+  padding: 20px 200px 0px;
+}
 
 /* photos and graphics */
 img {
@@ -32,4 +48,22 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.caption {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  font-style: italic;
+  padding: 12px 0px 10px;
+}
+
+/* pull quote*/
+blockquote {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: #C24CB2;
+  border-left: 2px solid;
+  padding: 30px 20px;
+  margin: 30px 270px;
 }
