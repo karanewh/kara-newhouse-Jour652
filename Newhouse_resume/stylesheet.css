@@ -2,3 +2,13 @@ body {
   margin:0;
   padding:0;
 }
+
+/* change the background color - not working */
+.navbar-custom {
+    background-color: #4f4e4e;
+}
+
+/* page topper - not working */
+.jumbotron.h1 {
+  color: #660000;
+}
