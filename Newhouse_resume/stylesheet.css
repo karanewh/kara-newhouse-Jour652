@@ -60,6 +60,15 @@ p {
   background-color: #48A3DD;
 }
 
+/*Sections*/
+.section {
+  padding: 10px 0px 10px;
+}
+
+/*Photos*/
+.previews {
+  padding-bottom: 10px;
+}
 
 /*THINGS TO FIGURE OUT LATER*/
 
