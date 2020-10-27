@@ -56,6 +56,12 @@ p {
   line-height: 1.5;
 }
 
+a {
+  color: #48A3DD;
+}
+
+/*REMOVE THIS LATER*/
+
 .blue-bg {
   background-color: #48A3DD;
 }
