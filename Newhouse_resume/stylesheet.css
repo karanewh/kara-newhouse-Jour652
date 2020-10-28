@@ -76,7 +76,11 @@ a {
   padding: 10px 0px 10px;
 }
 
-/*Photos*/
+/*Photos and design elements*/
 .previews {
   padding: 10px 0px 10px;
+}
+
+.hr-color {
+  background-color: #4f4e4e;
 }
