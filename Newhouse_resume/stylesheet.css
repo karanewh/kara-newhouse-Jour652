@@ -5,8 +5,17 @@ body {
 
 #content {
   width: 100%;
-  max-width: 900px;
+  max-width: 200px;
   margin: 0 auto;
+}
+
+/* Navbar */
+.bg-gray {
+  background-color: #4f4e4e;
+}
+
+.nav-font {
+  font-family: 'news cycle', serif;
 }
 
 /* Text styles*/
@@ -60,11 +69,7 @@ a {
   color: #48A3DD;
 }
 
-/*REMOVE THIS LATER*/
 
-.blue-bg {
-  background-color: #48A3DD;
-}
 
 /*Sections*/
 .section {
@@ -75,12 +80,3 @@ a {
 .previews {
   padding: 10px 0px 10px;
 }
-
-/*THINGS TO FIGURE OUT LATER*/
-
-/* change the navbar background color - not working */
-.navbar-custom {
-    background-color: #4f4e4e;
-}
-
-/* page topper - not working */
