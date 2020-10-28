@@ -18,22 +18,35 @@ body {
   font-family: 'news cycle', serif;
 }
 
-/* Text styles*/
-
+/* Topper */
 h1 {
   font-family: 'news cycle', serif;
-  font-size: 4em;
+  font-size: 6em;
   font-style: bold;
   line-height: 1.2;
-}
-
-.jumbotron h1 {
   color: #660000;
   text-align: center;
+  font-weight: bold;
 }
 
 .jumbotron .lead {
+  font-family: 'news cycle', serif;
+  font-size: 2.8em;
   text-align: center;
+  letter-spacing: 3px;
+}
+
+
+/* Text styles*/
+#intro {
+  font-family: 'news cycle', sans-serif;
+  font-size: 1em;
+  line-height: 2;
+}
+p {
+  font-family: 'news cycle', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 #work {
@@ -59,10 +72,17 @@ h3 {
   text-align: center;
 }
 
-p {
+.job {
   font-family: 'news cycle', sans-serif;
   font-size: 1em;
-  line-height: 1.5;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.years {
+  font-family: 'news cycle', sans-sans-serif;
+  font-size: 1em;
+  line-height: 2;
 }
 
 a {
@@ -70,17 +90,12 @@ a {
 }
 
 
-
 /*Sections*/
 .section {
-  padding: 10px 0px 10px;
+  padding: 10px 0px 5px;
 }
 
 /*Photos and design elements*/
 .previews {
   padding: 10px 0px 10px;
-}
-
-.hr-color {
-  background-color: #4f4e4e;
 }
