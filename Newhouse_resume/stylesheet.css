@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
 }
 
+
 /* Navbar */
 .bg-gray {
   background-color: #4f4e4e;
@@ -36,6 +37,25 @@ h1 {
   letter-spacing: 3px;
 }
 
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.hr-top {
+  width:62%;
+}
+
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  background: #48A3DD;
+  color: white;
+  border-radius: 50%;
+}
 
 /* Text styles*/
 #intro {
@@ -98,4 +118,16 @@ a {
 /*Photos and design elements*/
 .previews {
   padding: 10px 0px 10px;
+}
+
+/*Footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4f4e4e;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 7px;
 }
