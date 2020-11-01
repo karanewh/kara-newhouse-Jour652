@@ -83,6 +83,7 @@ BODY {
 
 .menu ul li {
   display: inline;
+  text-align: center;
 }
 
 #degrees {

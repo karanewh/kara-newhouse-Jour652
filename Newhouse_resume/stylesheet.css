@@ -45,17 +45,27 @@ h1 {
   width:62%;
 }
 
-
-i {
-  padding: 0px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  background: #48A3DD;
-  color: white;
-  border-radius: 50%;
+i{
+  color: #48A3DD;
 }
+
+.inline ul li {
+  display: inline;
+  text-align: center;
+}
+
+/*
+.circle-icon {
+    background: #48A3DD;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+*/
 
 /* Text styles*/
 #intro {
@@ -63,6 +73,7 @@ i {
   font-size: 1em;
   line-height: 2;
 }
+
 p {
   font-family: 'news cycle', sans-serif;
   font-size: 1em;
