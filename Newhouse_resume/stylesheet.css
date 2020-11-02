@@ -32,14 +32,7 @@ h1 {
 
 @media only screen and (max-width: 500px) {
   h1 {
-    font-family: 'news cycle', sans-serif;
     font-size: 1.5em;
-    font-style: bold;
-    line-height: 1;
-    color: #660000;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 10px;
   }
 }
 
@@ -49,6 +42,12 @@ h1 {
   font-size: 2.8em;
   text-align: center;
   letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbotron .lead {
+    font-size: 1em;
+  }
 }
 
 .jumbotron {
