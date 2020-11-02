@@ -43,23 +43,13 @@ h1 {
 }
 
 .hr-top {
-  width:62%;
+  width:61%;
 }
 
-i{
-  color: white;
-}
 
-.icon-background {
-    color: #48A3DD;
-}
 
-.inline ul li {
-  display: inline;
-  text-align: center;
-}
 
-/*
+/*Other attempts at circle icons
 .circle-icon {
     background: #48A3DD;
     width: 100px;
@@ -70,14 +60,26 @@ i{
     vertical-align: middle;
     padding: 30px;
 }
+
+
+.icon-background {
+    color: #48A3DD;
+}
+
+.inline ul li {
+  display: inline;
+  text-align: center;
+}
+
 */
 
 /*Social icons*/
-.demopadding {
+.contact {
   margin:50px auto;
   width:140px;
   text-align:center;
 }
+
 .icon {
 	position:relative;
 	text-align:center;
@@ -93,12 +95,15 @@ i{
 	-khtml-border-radius: 		20px 20px 20px 20px;
 	color:#FFFFFF;
 }
+
 .icon i {
 	font-size:20px;
 	position:absolute;
 	left:9px;
 	top:10px;
+  color: white;
 }
+
 .icon.social {
 	float:left;
 	margin:0 5px 0 0;
@@ -110,6 +115,7 @@ i{
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 }
+
 .icon.social:hover {
 	background:#262626 ;
 	color:#6d6e71;
@@ -123,10 +129,12 @@ i{
 	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
 	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));
 }
+
 .icon.social.en i {
 	left:10.5px;
 	top:10px;
 }
+
 .icon.social.tw i {
 	left:11.5px;
 }
@@ -136,9 +144,9 @@ i{
 
 
 /* Text styles*/
-#intro {
+.intro {
   font-family: 'news cycle', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 2;
 }
 
