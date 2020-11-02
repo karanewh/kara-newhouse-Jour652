@@ -30,32 +30,11 @@ h1 {
   padding-top: 10px;
 }
 
-@media only screen and (max-width: 500px) {
-  h1 {
-    font-size: 1.5em;
-  }
-
-  .jumbotron {
-    padding: 4rem 1rem 0rem 1rem;
-  }
-}
-
-
 .jumbotron .lead {
   font-family: 'news cycle', sans-serif;
   font-size: 2.8em;
   text-align: center;
   letter-spacing: 3px;
-}
-
-@media only screen and (max-width: 500px) {
-  .jumbotron .lead {
-    font-size: 1.2em;
-  }
-
-  .intro p{
-    font-size: .8em;
-  }
 }
 
   .jumbotron {
@@ -68,31 +47,23 @@ h1 {
 }
 
 
+/*Topper media queries*/
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .jumbotron {
+    padding: 4rem 1rem 0rem 1rem;
+  }
 
+  .jumbotron .lead {
+    font-size: 1.2em;
+  }
 
-/*Other attempts at circle icons
-.circle-icon {
-    background: #48A3DD;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 30px;
+  .intro p{
+    font-size: .8em;
+  }
 }
-
-
-.icon-background {
-    color: #48A3DD;
-}
-
-.inline ul li {
-  display: inline;
-  text-align: center;
-}
-
-*/
 
 /*Social icons*/
 .contact {
@@ -100,8 +71,6 @@ h1 {
   width:140px;
   text-align:center;
 }
-
-
 
 .icon {
 	position:relative;
@@ -230,6 +199,12 @@ a {
   padding: 10px 0px 10px;
 }
 
+@media screen and (max-width: 480px) {
+    .kara {
+        display:none;
+    }
+}
+
 /*Footer*/
 .footer {
   left: 0;
@@ -244,11 +219,4 @@ a {
 
 .footer i{
   color: #48A3DD;
-}
-
-/*Media query*/
-@media screen and (max-width: 480px) {
-    .kara {
-        display:none;
-    }
 }
