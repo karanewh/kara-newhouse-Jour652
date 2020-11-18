@@ -1,0 +1,79 @@
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.chapter {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  line-height: 180%;
+}
+
+
+.teachername {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.caption {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  font-style: italic;
+  padding: 5px 3px 20px;
+}
+
+
+.infographic {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.map {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+/*Footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4f4e4e;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 7px;
+}
