@@ -98,10 +98,19 @@ blockquote {
   margin: 30px 100px;
 }
 
+.quote2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
 .attribution {
   font-size:.5em;
   color:black;
   font-style:italic;
+  line-height: .5;
 }
 
 img {
