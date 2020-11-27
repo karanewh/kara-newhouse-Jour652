@@ -125,6 +125,11 @@ img {
   margin: auto;
 }
 
+#timeline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .caption {
   font-family: Georgia, serif;
   font-size: .8em;
