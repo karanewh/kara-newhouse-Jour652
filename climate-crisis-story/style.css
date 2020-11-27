@@ -52,10 +52,10 @@
 
 
 .dek {
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: 700;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Georgia', serif;
   color:#E02A1F;
   padding-top:20px;
 }
@@ -72,11 +72,12 @@
   font-size: 2em;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
-  color: #FF9951;
+  color: #E02A1F;
 }
 
 p {
   font-family: 'Georgia', serif;
+  font-size: 1em;
   line-height: 180%;
 }
 
@@ -91,7 +92,7 @@ h3 {
 blockquote {
   font-family: 'Lato', sans-serif;
   font-size: 2em;
-  color: #FA5908;
+  color: #FF9951;
   border-left: 2px solid;
   padding: 30px 20px;
   margin: 30px 100px;
@@ -110,9 +111,14 @@ img {
   width: 100%;
 }
 
+.graphic {
+  width: 100%;
+  margin: auto;
+}
+
 .caption {
   font-family: Georgia, serif;
-  font-size: 1em;
+  font-size: .8em;
   font-style: italic;
   padding: 5px 3px 20px;
 }
@@ -137,7 +143,7 @@ img {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #4f4e4e;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding-bottom: 5px;
