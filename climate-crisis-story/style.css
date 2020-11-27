@@ -130,6 +130,39 @@ img {
   margin-bottom: 20px;
 }
 
+/* Sidebar */
+.text-red {
+  color:#E02A1F;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-orange {
+  color: #FF9951;
+}
+
+.card-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+
+.card-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+}
+
+.less-padding {
+  padding: 0px 20px;
+  margin: 0;
+}
+
+.more-margin {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .caption {
   font-family: Georgia, serif;
   font-size: .8em;
