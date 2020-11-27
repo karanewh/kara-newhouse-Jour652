@@ -12,6 +12,18 @@
   color:#E02A1F;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #E02A1F;
+}
+
+a:hover {
+  color: gray;
+}
+
 /* Splash area */
 .hero-container {
   position:relative;
