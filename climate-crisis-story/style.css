@@ -1,7 +1,6 @@
 /*nav bar*/
 .nav-logo {
   color:#fff;
-  font-weight:700;
   text-transform:uppercase;
 }
 
@@ -48,9 +47,9 @@
   color:black;
   padding-bottom: 70px;
 }
+
+
 /* Body */
-
-
 .dek {
   font-size: 2.25em;
   font-weight: 700;
@@ -105,7 +104,7 @@ blockquote {
   left: 50%;
   transform: translate(-50%, -50%);
  }
- 
+
 .attribution {
   font-size:.5em;
   color:black;
@@ -113,12 +112,8 @@ blockquote {
   line-height: .5;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
+
+/* Infographics */
 
 .graphic {
   width: 100%;
@@ -126,7 +121,6 @@ img {
 }
 
 #timeline {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -163,6 +157,14 @@ img {
   margin-bottom: 30px;
 }
 
+/* Photos */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 .caption {
   font-family: Georgia, serif;
   font-size: .8em;
@@ -195,4 +197,5 @@ img {
   text-align: center;
   padding-bottom: 5px;
   padding-top: 7px;
+  font-family: 'Lato', sans-serif;
 }
