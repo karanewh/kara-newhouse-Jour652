@@ -109,8 +109,8 @@ blockquote {
   font-size: 2em;
   color: #FF9951;
   border-left: 2px solid;
-  padding: 30px 20px;
-  margin: 30px 100px;
+  padding: 10px 20px;
+  margin: 10px 10px;
 }
 
 .attribution {
@@ -207,7 +207,17 @@ img {
   }
 }
 
-@media(max-width:700px) {
+@media(max-width:900px) {
+  blockquote{
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  }
+
+
+}
+
+@media(max-width:500px) {
   blockquote{
   font-size: 1em;
   padding: 10px 20px;
@@ -218,8 +228,6 @@ img {
     font-size:.9em;
   }
 }
-
-
 
 
 
