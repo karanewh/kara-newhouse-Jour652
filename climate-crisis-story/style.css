@@ -113,14 +113,6 @@ blockquote {
   margin: 30px 100px;
 }
 
-.quote2 {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- }
-
 .attribution {
   font-size:.5em;
   color:black;
@@ -214,6 +206,23 @@ img {
     padding-bottom:20px;
   }
 }
+
+@media(max-width:700px) {
+  blockquote{
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  }
+
+  .attribution {
+    font-size:.9em;
+  }
+}
+
+
+
+
+
 
 /*Footer*/
 .footer {
