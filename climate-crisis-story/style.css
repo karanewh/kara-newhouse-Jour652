@@ -207,14 +207,12 @@ img {
   }
 }
 
-@media(max-width:900px) {
+@media(max-width:800px) {
   blockquote{
   font-size: 1.5em;
   padding: 10px 20px;
   margin: 10px 10px;
   }
-
-
 }
 
 @media(max-width:500px) {
@@ -228,8 +226,6 @@ img {
     font-size:.9em;
   }
 }
-
-
 
 
 /*Footer*/
