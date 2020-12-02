@@ -109,8 +109,8 @@ blockquote {
   font-size: 2em;
   color: #FF9951;
   border-left: 2px solid;
-  padding: 10px 20px;
-  margin: 10px 10px;
+  padding: 30px 20px;
+  margin: 10px 100px;
 }
 
 .attribution {
@@ -121,6 +121,13 @@ blockquote {
   padding-top: 10px;
 }
 
+.quote2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Infographics */
 
@@ -150,6 +157,7 @@ blockquote {
 
 a.collapse-link {
   color: white;
+  text-decoration: underline;
 }
 
 .card-description {
@@ -210,8 +218,16 @@ img {
 @media(max-width:800px) {
   blockquote{
   font-size: 1.5em;
-  padding: 10px 20px;
-  margin: 10px 10px;
+  margin: 10px 20px;
+  }
+
+  .quote2{
+    margin: 10px 20px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: none;
+}
   }
 }
 
