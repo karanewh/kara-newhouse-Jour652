@@ -21,7 +21,7 @@
 }
 
 p {
-  font-family: 'Georgia', serif;
+  font-family: 'Lato', sans-serif;
   line-height: 180%;
 }
 
@@ -66,6 +66,21 @@ img {
   max-width: 700px;
   margin: 0 auto;
 }
+
+/*Read More*/
+.line-yellow {
+  background-color: #DCC31D;
+  height: 3px;
+}
+
+.readmore {
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
 /*Footer*/
 .footer {
   left: 0;
