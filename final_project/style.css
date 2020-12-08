@@ -14,58 +14,106 @@
   font-family: 'Lato', sans-serif;
 }
 
-.chapter {
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  line-height: 180%;
+}
+
+
+img {
+  height: 20%;
+}
+
+
+/*Teacher text*/
+.teachername {
   font-size: 2em;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  line-height: 180%;
-}
-
-
-.teachername {
-  font-size: 1em;
-  font-weight: 700;
+.teacherjob {
+  font-size: 1.2em;
   font-family: 'Lato', sans-serif;
 }
 
-h3 {
+.chapter {
   font-size: 1.5em;
   font-weight: 700;
-  text-align: center;
   font-family: 'Lato', sans-serif;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+
+.btn-dark {
+  background-color: rgba(0, 0, 0, 0.64);
+  border: none;
+  padding: 10px 20px;
+  text-align: left;
 }
 
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.text-white {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  letter-spacing: .04em;
+  word-spacing: .1em;
 }
 
-.caption {
-  font-family: Georgia, serif;
-  font-size: 1em;
-  font-style: italic;
-  padding: 5px 3px 20px;
+
+.overlay {
+  position:absolute;
+  top:20%;
+  background-color: rgba(224, 41, 31, 0.7);
 }
 
+/* Block quotes*/
+
+blockquote {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.1em;
+  margin: 40px 200px 40px 0px;
+}
+
+blockquote.wide {
+  margin: 40px 75px 40px 0px;
+}
+
+
+.quotebold {
+  font-weight: 600;
+}
+
+.yellow {
+  color: #DCC31D;
+}
+
+.orange {
+  color: #F58D44
+}
+
+.pink {
+  color: #E082FF;
+}
+
+.purple {
+  color: #8A57F0;
+}
+
+.blue {
+  color: #2E58FF;
+}
 
 .infographic {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.map {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-}
 
 /*Read More*/
 .line-yellow {
