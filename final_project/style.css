@@ -20,7 +20,6 @@ p {
   line-height: 180%;
 }
 
-
 img {
   width: 300px;
 }
@@ -32,6 +31,7 @@ img.right {
 img.left {
   float: left;
 }
+
 
 /*Teacher text*/
 .teachername {
@@ -149,6 +149,7 @@ blockquote.wide {
 .line-yellow {
   background-color: #DCC31D;
   height: 3px;
+  margin-top: 30px;
 }
 
 .readmore {
@@ -157,7 +158,11 @@ blockquote.wide {
   font-weight: bold;
 }
 
-
+img.img-read {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
 
 /*Footer*/
 .footer {
@@ -169,4 +174,5 @@ blockquote.wide {
   text-align: center;
   padding-bottom: 5px;
   padding-top: 7px;
+  margin-top: 20px;
 }
