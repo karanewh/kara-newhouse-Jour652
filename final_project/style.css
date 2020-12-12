@@ -145,7 +145,7 @@ blockquote.wide {
 }
 
 /*Media queries*/
-@media(max-width:500px) {
+@media(max-width:600px) {
   img{
   display: none;
   }
