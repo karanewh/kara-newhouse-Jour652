@@ -144,6 +144,12 @@ blockquote.wide {
   padding-bottom: 70px;
 }
 
+/*Media queries*/
+@media(max-width:500px) {
+  img{
+  display: none;
+  }
+}
 
 /*Read More*/
 .line-yellow {
