@@ -242,7 +242,7 @@ img.img-read {
 
 
 /*Media queries*/
-@media(max-width:700px) {
+@media(max-width:800px) {
   img{
   display: none;
   }
