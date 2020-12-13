@@ -6,6 +6,7 @@
 */
 img.nav-logo{
   width: 100px;
+  padding-right: 10px;
 }
 
 .icon {
@@ -86,6 +87,7 @@ p {
   font-size: 1em;
   line-height: 180%;
 }
+
 
 img {
   width: 300px;
@@ -212,13 +214,6 @@ blockquote.wide {
 }
 
 
-/*Media queries*/
-@media(max-width:700px) {
-  img{
-  display: none;
-  }
-}
-
 /*Read More*/
 .line-yellow {
   background-color: #DCC31D;
@@ -230,12 +225,32 @@ blockquote.wide {
   font-size: 1em;
   text-align: center;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 img.img-read {
   display: block;
   margin: 0 auto;
-  width: 70%;
+  max-width: 300px;
+  padding-bottom: 5px;
+}
+
+.center {
+  text-align: center;
+  padding: 5px;
+}
+
+
+/*Media queries*/
+@media(max-width:700px) {
+  img{
+  display: none;
+  }
+
+  img.img-read {
+  max-width: 100px;
+  padding-top: 5px;
+  }
 }
 
 /*Footer*/
