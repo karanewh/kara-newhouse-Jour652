@@ -1,10 +1,5 @@
+
 /* Navbar */
-/* {
-  border-radius: 0 !important;
-}
-
-*/
-
 img.nav-logo{
   width: 150px;
   padding: 0px 10px;
@@ -38,7 +33,7 @@ img.nav-logo{
 	float:right;
 	margin:0 5px 0 0;
 	cursor:pointer;
-	background:#a8a7a7 ;
+  background-color: rgba(241,102,33,.9);
 	color:white;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -47,17 +42,16 @@ img.nav-logo{
 }
 
 .icon.social:hover {
-	background:#262626 ;
-	color:#6d6e71;
+	background:#F16621;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
-	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
-	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
-	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
-	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
-	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(245,141,68,.96));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(245,141,68,.96));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(245,141,68,.96));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(245,141,68,.96));
+	filter: 			drop-shadow(0 1px 10px rgba(245,141,68,.96));
 }
 
 .icon.social.tw i {
@@ -251,12 +245,34 @@ img.img-read {
 /*Media queries*/
 @media(max-width:800px) {
   img{
-  display: none;
+    max-width: 200px;
   }
 
   img.img-read {
-  max-width: 100px;
-  padding-top: 5px;
+    max-width: 100px;
+    padding-top: 5px;
+  }
+
+  .teachername {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .teacherjob {
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .btn-dark {
+    margin-left: 10px;
+  }
+
+  blockquote {
+    margin: 40px 200px 40px 0px;
+  }
+
+  blockquote.wide {
+    margin: 40px 75px 40px 0px;
   }
 }
 
