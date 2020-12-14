@@ -171,6 +171,15 @@ img.left {
   margin-bottom: 80px;
 }
 
+.less-margin {
+  margin-bottom: 20px;
+}
+
+.line-yellow {
+  background-color: #DCC31D;
+  height: 3px;
+}
+
 /* Block quotes*/
 blockquote {
   font-family: 'Lato', sans-serif;
@@ -216,12 +225,6 @@ blockquote.wide {
 
 
 /*Read More*/
-.line-yellow {
-  background-color: #DCC31D;
-  height: 3px;
-  margin-top: 30px;
-}
-
 .readmore {
   font-size: 1em;
   text-align: center;
@@ -233,7 +236,6 @@ img.img-read {
   display: block;
   margin: 0 auto;
   max-width: 300px;
-  padding-bottom: 5px;
 }
 
 .center {
