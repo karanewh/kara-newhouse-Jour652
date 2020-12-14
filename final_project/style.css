@@ -277,17 +277,21 @@ img.img-read {
 }
 
 @media(max-width:700px) {
-  img{
-    display: none;
+  img.nav-logo{
+    width: 125px;
+    padding-left: 0px;
   }
 
   img.right {
+    display: none;
     margin: auto;
   }
 
   img.left {
+    display: none;
     float: left;
   }
+
   .teachername {
     padding-top: 10px;
     padding-left: 20px;
@@ -300,6 +304,10 @@ img.img-read {
 
   .btn-dark {
     margin-left: 20px;
+  }
+
+  .left-margin {
+    margin-left: 10px;
   }
 
   img.img-read {
@@ -333,6 +341,10 @@ img.img-read {
 
   .intro2 {
     font-size: 1em;
+  }
+
+  .infographic {
+    padding-bottom: 40px;
   }
 }
 
